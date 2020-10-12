@@ -19,7 +19,7 @@ Run `ruby watch.rb` to watch the `/build` folder for changes.  For development.
 
 [build/index.html](build/index.html) demonstrates including the footer on the server side.  In this demo, the ERB template at [templates/index.html.erb](templates/index.html.erb) includes the CSS styling in the `<head>` section of the HTML document, and the footer contents separately in the `<body>` section.
 
-If you want to do it this way, then you can include the file [build/styles.css](build/styles.css) or [build/styles.min.css](build/styles.min.css) for the styles, and [build/footer.css](build/styles.css) or [build/footer.min.css](build/footer.min.css) for the footer content.
+If you want to do it this way, then you can include the file [build/styles.css](build/styles.css) or [build/styles.min.css](build/styles.min.css) for the styles, and [build/footer.html](build/footer.html) or [build/footer.min.html](build/footer.min.html) for the footer content.
 
 If you do it this way, then the footer styling and HTML will be included in the initial page load.  Transferring those bytes will add extra time to the page load.  And the additional DOM nodes will slow down the initial page render.  If you want the best-possible Lighthouse performance scores for your initial page load, then you might want to consider using a lazy-loaded footer instead.
 
@@ -27,4 +27,4 @@ If you do it this way, then the footer styling and HTML will be included in the 
 
 [build/index.lazy-load.html](build/index.lazy-load.html) demonstrates including the footer on the server side.  In this demo, the ERB template at [templates/index.lazy-load.html.erb](templates/index.lazy-load.html.erb) includes pure Javascript code (no jQuery or other external dependency required) for fetching the [build/footer.jsonp](build/footer.jsonp) file and including it in the page.
 
-If you want to do it this way, just copy that widget into your HTML.
+If you want to do it this way, just copy that widget into your HTML.  It uses JSONP so that you don't need to worry about configuring CORS.  Want proof that it works from a different origin without CORS?  Here's a Codepen: https://codepen.io/endymion/pen/vYKNOOP
