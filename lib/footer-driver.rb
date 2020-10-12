@@ -24,12 +24,12 @@ module FooterDriver
       # footer file for JSONP.  For lazy-loading from the client side.
       {
         input:  'templates/footer.jsonp.erb',
-        output: 'build/footer.jsonp'
+        output: 'build/footer.json'
       },
       # Minified JSONP footer file, for lazy loading in production.
       {
         input:  'templates/footer.jsonp.erb',
-        output: 'build/footer.min.jsonp',
+        output: 'build/footer.min.json',
         minified: true
       },
 
