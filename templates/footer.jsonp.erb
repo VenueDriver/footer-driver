@@ -1,0 +1,25 @@
+footerCallback(["\
+<%=
+  (
+    # Styles
+    "<style class=\"embed\">\n" +
+    SassC::Engine.new(
+      ERB.new(
+        File.read('templates/styles.scss'),
+        nil, nil, 'styles'
+      ).result(binding),
+      {
+        style: :compressed
+      }
+    ).render +
+    "</style>" +
+
+    # HTML
+    ERB.new(File.read('templates/footer.html.erb'), nil, nil, 'footer').
+      result(binding)
+  ).
+    # Escape the quotes.
+    gsub(/\"/, '\"').
+    # Escape the line endings because Javascript does not have a HEREDOC.
+    gsub(/\n/,"\\n\\\n")
+%>"]);

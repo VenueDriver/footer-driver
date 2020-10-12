@@ -1,0 +1,11 @@
+<%=
+  SassC::Engine.new(
+    ERB.new(
+      File.read('templates/styles.scss'),
+        nil, nil, 'styles'
+      ).result(binding),
+      {
+        style: :compressed
+      }
+    ).render
+%>

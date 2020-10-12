@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Footer Driver</title>
+
+    <style class="embed">
+      /* Minimal style reset. */
+      body, div {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+        background-color: black;
+        color: white;
+      }
+
+      p + p {
+        margin-top: 1em;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div style="background-color: black; width: 100%; color: white; padding: 1em 0 1em 0;">fake page header</div>
+    <div style="background-color: #D219C0;; width: 100%; color: white; padding: 1em 0 1em 0;">
+      <p>Fake page body.</p>
+
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida turpis non pulvinar condimentum. In magna leo, volutpat vitae enim ut, scelerisque congue elit. Etiam vulputate tempus neque, quis gravida orci porta ut. Ut eleifend, diam ut laoreet pulvinar, sapien purus facilisis ipsum, ut posuere nisl lacus a sem. Ut scelerisque nisi ligula, a bibendum massa pellentesque vitae. Maecenas enim justo, fermentum sit amet fermentum vel, pulvinar eget odio. Nulla cursus sem eu scelerisque ullamcorper.
+      <p>
+
+      <p>Vivamus malesuada nisi ligula, a rutrum ligula ornare sed. Proin eu elementum dui, sit amet dapibus augue. Etiam sed erat aliquet, auctor justo id, suscipit dolor. Quisque tempor volutpat turpis non varius. Proin faucibus rhoncus tellus, sit amet feugiat quam placerat mattis. Vestibulum vehicula mattis convallis. Vestibulum viverra eros vitae purus semper ultrices. Curabitur mollis ultrices tincidunt. Aliquam sodales vel risus sit amet efficitur.</p>
+
+      <p>
+      Fusce quis risus pretium, commodo est at, gravida ligula. Phasellus vehicula odio ipsum, non elementum nisl convallis nec. Suspendisse aliquet, ligula ut interdum varius, velit justo varius orci, ac fermentum felis est et nunc. Quisque in auctor lectus, in ornare elit. Nullam erat lorem, rutrum ut imperdiet sit amet, mattis eget lectus. Fusce lorem justo, mattis vitae rutrum sed, rhoncus at quam. Suspendisse vitae elementum magna, a pellentesque mi. Suspendisse ante ante, ornare vitae lacus at, iaculis rhoncus justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque gravida quis urna ac faucibus. In molestie nunc id felis consequat commodo.
+      </p>
+
+      <p>
+      Donec vel elit hendrerit purus sagittis iaculis. Duis et tincidunt elit. Suspendisse risus sem, consequat ac justo quis, suscipit tristique dolor. Nullam nec nunc congue, venenatis orci ac, tempus mauris. Ut eget congue lorem. Mauris vel gravida orci. Donec felis lectus, elementum nec pulvinar luctus, pulvinar eu lacus. Vivamus placerat diam ut tellus iaculis, vitae molestie nulla pretium. Nullam imperdiet libero quis augue ultricies pharetra et imperdiet lectus. Ut finibus nisi id elit mattis, vel rutrum mi molestie. Praesent maximus odio in turpis tristique, ut gravida orci mattis. Nam pharetra nisi a elit pharetra, vel tristique odio convallis. Sed aliquam arcu ante, id vehicula mi bibendum id. Duis venenatis finibus libero, non feugiat urna scelerisque sit amet. Nunc risus nunc, varius et commodo nec, tristique vel lacus.
+      </p>
+
+      <p>
+      Aliquam id nisl dictum, dictum nulla in, tincidunt mauris. Curabitur vel velit auctor, consequat magna ac, feugiat odio. Etiam vel aliquam risus, vitae ullamcorper arcu. Quisque id tellus euismod augue consequat scelerisque at id nisi. Sed sit amet velit ac lectus ornare luctus in nec quam. Vivamus nec ullamcorper eros. Ut euismod eu erat at rutrum. Nunc eu nulla nec ante tincidunt tincidunt et a purus. Duis ac enim vel odio tristique tincidunt. Sed euismod nunc ac est venenatis eleifend. Maecenas scelerisque massa eget odio rhoncus interdum. Etiam ultrices ultrices pulvinar. Morbi laoreet vulputate velit. Maecenas non leo malesuada, semper orci sed, cursus urna.
+      </p>
+    </div>
+
+    <div id='lazyFooter'></div>
+    <script>
+    function footerCallback(json_data){
+        document.getElementById('lazyFooter').innerHTML = json_data[0];
+    }
+    </script>
+    <script type="text/javascript" src="footer.jsonp"></script>
+
+  </body>
+</html>
