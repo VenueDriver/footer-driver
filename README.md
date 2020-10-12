@@ -25,6 +25,6 @@ If you do it this way, then the footer styling and HTML will be included in the 
 
 ## Lazy-loaded client-side includes
 
-[build/index.lazy-load.html](build/index.lazy-load.html) demonstrates including the footer on the server side.  In this demo, the ERB template at [templates/index.lazy-load.html.erb](templates/index.lazy-load.html.erb) includes pure Javascript code (no jQuery or other external dependency required) for fetching the [build/footer.json](build/footer.json) file and including it in the page.
+[build/index.lazy-load.html](build/index.lazy-load.html) demonstrates including the footer on the server side.  In this demo, the ERB template at [templates/index.lazy-load.html.erb](templates/index.lazy-load.html.erb) includes pure Javascript code (no jQuery or other external dependency required) for fetching the [build/footer.min.json](build/footer.min.json) file and including it in the page.  That file includes both the footer contents and the styling.
 
 If you want to do it this way, just copy that widget into your HTML.  It uses JSONP so that you don't need to worry about configuring CORS.  Want proof that it works from a different origin without CORS?  Here's a Codepen: https://codepen.io/endymion/pen/vYKNOOP
