@@ -50,12 +50,18 @@
     </div>
 
     <div id='lazyFooter'></div>
-    <script>
-    function footerCallback(json_data){
-        document.getElementById('lazyFooter').innerHTML = json_data[0];
-    }
-    </script>
-    <script type="text/javascript" src="https://venuedriver.github.io/footer-driver/build/footer.min.jsonp"></script>
 
   </body>
+
+  <script>
+  function footerCallback(json_data){
+    document.getElementById('lazyFooter').innerHTML = json_data[0];
+  }
+  window.onload = function() {
+    var script = document.createElement('script');
+    script.src = 'https://venuedriver.github.io/footer-driver/build/footer.min.jsonp'
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+  </script>
+
 </html>
