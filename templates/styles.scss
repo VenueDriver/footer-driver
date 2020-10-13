@@ -17,6 +17,8 @@
 }
 
 footer {
+  background-color: black;
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   margin: 0;
@@ -32,7 +34,6 @@ footer {
   }
 
   &.footer_wrap {
-    background: #000000;
     padding-top: 106px;
     padding-bottom: 90px;
     display: inline-block;
@@ -118,10 +119,15 @@ footer.footer_wrap {
   .footer-top {
     .footer-hakkasan-logo {
       margin-bottom: 80px;
+      opacity: 0.7;
 
       svg {
         fill: #ffffff;
         width: 195px;
+      }
+
+      .sitelinks {
+        opacity: 0.7;
       }
     }
 
@@ -141,7 +147,7 @@ footer.footer_wrap {
   }
 
   a {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .brand_logos li {

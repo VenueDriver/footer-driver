@@ -55,7 +55,7 @@
 
   <script>
   function footerCallback(json_data){
-    document.getElementById('lazyFooter').innerHTML = json_data[0];
+    document.getElementById('lazyFooter').outerHTML = json_data[0];
   }
   window.onload = function() {
     var script = document.createElement('script');
