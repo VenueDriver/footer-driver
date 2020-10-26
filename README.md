@@ -19,9 +19,9 @@ Run `ruby watch.rb` to watch the `/build` folder for changes.  For development.
 
 To deploy, I simply copy files to S3:
 
-    $ aws s3 sync ./build s3://staging.footers.hakkasangroup.com
+    $ aws s3 sync --acl public-read ./build s3://staging.footers.hakkasangroup.com
 
-    $ aws s3 sync ./build s3://footers.hakkasangroup.com
+    $ aws s3 sync --acl public-read ./build s3://footers.hakkasangroup.com
 
 ## Server-side includes
 
