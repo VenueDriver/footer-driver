@@ -15,6 +15,14 @@ in `/templates`.
 
 Run `ruby watch.rb` to watch the `/build` folder for changes.  For development.
 
+## Deploying
+
+To deploy, I simply copy files to S3:
+
+    $ aws s3 sync ./build s3://staging.footers.hakkasangroup.com
+
+    $ aws s3 sync ./build s3://footers.hakkasangroup.com
+
 ## Server-side includes
 
 [build/index.html](build/index.html) demonstrates including the footer on the server side.  In this demo, the ERB template at [templates/index.html.erb](templates/index.html.erb) includes the CSS styling in the `<head>` section of the HTML document, and the footer contents separately in the `<body>` section.
