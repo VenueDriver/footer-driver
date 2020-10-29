@@ -23,7 +23,7 @@ footer {
   font-size: 12px;
   margin: 0;
 
-  div {
+  div, #menu-footer-menu-legal a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     margin: 0;
@@ -80,7 +80,7 @@ footer {
       }
     }
 
-    h3 {
+    h3 a {
       font-family: 'Darby Sans Poster Web', serif;
     }
 
@@ -146,7 +146,7 @@ footer.footer_wrap {
     }
 
     .footer_menu_top_class {
-      ul, li {
+      ul, li a {
         font-family: 'Darby Sans Poster Web', serif;
         font-size: 20px;
         line-height: 50px;
@@ -171,6 +171,11 @@ footer.footer_wrap {
 
     a svg:hover {
       opacity: 0.9;
+    }
+  }
+  .brand_logos {
+    li.narrow a svg {
+      width: 16vw;
     }
   }
 
@@ -330,12 +335,12 @@ footer.footer_wrap {
       line-height: 32px;
     }
 
-    h3 {
+    h3 a {
       line-height: 58px;
     }
 
     .footer-top .footer_menu_top_class {
-      ul, li {
+      ul, li a {
         font-size: 16px;
         line-height: 45px;
         text-align: center;
@@ -376,7 +381,7 @@ footer.footer_wrap {
       }
 
       .footer_menu_top_class {
-        ul, li {
+        ul, li a {
           font-size: 16px;
           line-height: 45px;
         }
@@ -426,9 +431,14 @@ footer.footer_wrap {
         width: 10vw;
       }
     }
-    .brand_logos li.solo {
+    .brand_logos li.narrow {
       a svg {
         width: 6vw;
+      }
+    }
+    .brand_logos li.solo {
+      a svg {
+        width: 5vw;
       }
     }
 
