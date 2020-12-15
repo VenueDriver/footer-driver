@@ -98,27 +98,27 @@ footerCallback(["\
                   <p>Follow Hakkasan Group on:</p>\n\
                   <ul class=\"noLightbox social_bookmarks icon_count_6\">\n\
                     <li class=\"social_bookmarks_instagram av-social-link-instagram social_icon_1\">\n\
-                      <a target=\"_blank\" aria-label=\"Link to Instagram\" href=\"https://www.instagram.com/hakkasangroup/\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"entypo-fontello\" title=\"Instagram\">\n\
+                      <a target=\"_blank\" aria-label=\"Link to Instagram\" href=\"https://www.instagram.com/hakkasangroup/\" aria-hidden=\"true\" title=\"Instagram\">\n\
                         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><use xlink:href=\"#instagram_svg\"/></svg></a>\n\
                     </li>\n\
                     <li class=\"social_bookmarks_facebook av-social-link-facebook social_icon_2\">\n\
-                      <a target=\"_blank\" aria-label=\"Link to Facebook\" href=\"https://www.facebook.com/HakkasanGroup/\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"entypo-fontello\" title=\"Facebook\">\n\
+                      <a target=\"_blank\" aria-label=\"Link to Facebook\" href=\"https://www.facebook.com/HakkasanGroup/\" aria-hidden=\"true\" title=\"Facebook\">\n\
                         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><use xlink:href=\"#facebook_svg\" /></svg></a>\n\
                     </li>\n\
                     <li class=\"social_bookmarks_twitter av-social-link-twitter social_icon_3\">\n\
-                      <a target=\"_blank\" aria-label=\"Link to Twitter\" href=\"https://twitter.com/HakkasanGroup\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"entypo-fontello\" title=\"Twitter\">\n\
+                      <a target=\"_blank\" aria-label=\"Link to Twitter\" href=\"https://twitter.com/HakkasanGroup\" aria-hidden=\"true\" title=\"Twitter\">\n\
                         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><use xlink:href=\"#twitter_svg\" /></svg></a>\n\
                     </li>\n\
                     <li class=\"social_bookmarks_linkedin av-social-link-linkedin social_icon_4\">\n\
-                      <a target=\"_blank\" aria-label=\"Link to Linkedin\" href=\"https://www.linkedin.com/company/hakkasan-limited/\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"entypo-fontello\" title=\"Linkedin\">\n\
+                      <a target=\"_blank\" aria-label=\"Link to Linkedin\" href=\"https://www.linkedin.com/company/hakkasan-limited/\" aria-hidden=\"true\" title=\"Linkedin\">\n\
                         <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><use xlink:href=\"#linkedin_svg\" /></svg></a>\n\
                     </li>\n\
                     <li class=\"social_bookmarks_wechat av-social-link-wechat social_icon_5\">\n\
-                      <a aria-label=\"Link to Wechat\" href=\"https://hakkasangroup.com/wechat/\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"fontello\" title=\"Wechat\">\n\
+                      <a aria-label=\"Link to Wechat\" href=\"https://hakkasangroup.com/wechat/\" aria-hidden=\"true\" title=\"Wechat\">\n\
                         <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><use xlink:href=\"#wechat_svg\" /></svg></a>\n\
                     </li>\n\
                     <li class=\"social_bookmarks_weibo av-social-link-weibo social_icon_6\">\n\
-                      <a target=\"_blank\" aria-label=\"Link to Weibo\" href=\"https://weibo.com/u/6628058417\" aria-hidden=\"true\" data-av_icon=\"\" data-av_iconfont=\"fontello\" title=\"Weibo\">\n\
+                      <a target=\"_blank\" aria-label=\"Link to Weibo\" href=\"https://weibo.com/u/6628058417\" aria-hidden=\"true\" title=\"Weibo\">\n\
                         <?xml version=\"1.0\" ?><svg data-name=\"Layer 21\" height=\"24\" id=\"Layer_21\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><use xlink:href=\"#weibo_svg\" /></svg></a>\n\
                     </li>\n\
                   </ul>\n\
