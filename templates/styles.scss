@@ -23,24 +23,24 @@ footer {
   font-size: 12px;
   margin: 0;
 
-  div, #menu-footer-menu-legal a {
+  div, #fd-menu-footer-menu-legal a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     margin: 0;
   }
 
-  #menu-footer-menu-legal, .av_one_half {
+  #fd-menu-footer-menu-legal, .fd_av_one_half {
     opacity: 0.75;
   }
 
-  &.footer_wrap {
-    padding-top: 60px;
+  &.fd_footer_wrap {
+    padding-top: 50px;
     padding-bottom: 90px;
     display: inline-block;
     width: 100%;
     text-align: center;
 
-    .content {
+    .fd_content {
       border: 0;
     }
 
@@ -48,7 +48,7 @@ footer {
       margin-top: 0px;
     }
 
-    .content .entry-content-wrapper {
+    .fd_content .fd-entry-content-wrapper {
       padding-right: 0;
     }
 
@@ -71,10 +71,10 @@ footer {
       font-weight: 400;
     }
 
-    .footer-logos-main-title {
+    .fd-footer-logos-main-title {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      .word {
+      .fd-word {
         display: block;
         opacity: inherit;
       }
@@ -96,7 +96,7 @@ footer {
       line-height: 60px;
     }
 
-    .footer-top {
+    .fd-footer-top {
       font-size: 12px;
       color: #ffffff;
 
@@ -109,13 +109,13 @@ footer {
       }
     }
 
-    .footer-bottom {
+    .fd-footer-bottom {
       text-transform: uppercase;
     }
   }
 }
 
-#dvFastForms #dvBannerHTML .ff-form-main .ff-footer-group .ff-item-row .ff-submit-btn .footnoteDiv footer.footer_wrap .footer-top .ff-footnote-label {
+#dvFastForms #dvBannerHTML .ff-form-main .ff-footer-group .ff-item-row .ff-submit-btn .footnoteDiv footer.fd_footer_wrap .fd-footer-top .ff-footnote-label {
   font-size: 12px;
   color: #ffffff;
   line-height: 22px;
@@ -123,9 +123,9 @@ footer {
   margin: 0;
 }
 
-footer.footer_wrap {
-  .footer-top {
-    .footer-hakkasan-logo {
+footer.fd_footer_wrap {
+  .fd-footer-top {
+    .fd-footer-hakkasan-logo {
       margin-bottom: 80px;
       opacity: 0.7;
 
@@ -134,18 +134,18 @@ footer.footer_wrap {
         width: 195px;
       }
 
-      .sitelinks {
+      .fd-sitelinks {
         opacity: 0.7;
       }
     }
 
-    .border {
+    .fd-border {
       height: 44px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       clear: both;
     }
 
-    .footer_menu_top_class {
+    .fd_footer_menu_top_class {
       ul, li a {
         font-family: 'Darby Sans Poster Web', serif;
         font-size: 20px;
@@ -158,7 +158,7 @@ footer.footer_wrap {
     opacity: 0.7;
   }
 
-  .brand_logos li {
+  .fd_brand_logos li {
     a svg {
       width: 23vw;
       fill: white;
@@ -173,17 +173,17 @@ footer.footer_wrap {
       opacity: 0.9;
     }
   }
-  .brand_logos {
+  .fd_brand_logos {
     li.narrow a svg {
       width: 16vw;
     }
   }
 
-  .footer-middle {
+  .fd-footer-middle {
     padding-top: 36px;
     padding-bottom: 58px;
 
-    .logos {
+    .fd-logos {
       padding-right: 40px;
       padding-left: 40px;
 
@@ -226,16 +226,16 @@ footer.footer_wrap {
     }
   }
 
-  .footer-bottom {
+  .fd-footer-bottom {
     font-size: 12px;
     color: #ffffff;
 
-    .border {
+    .fd-border {
       padding-top: 55px;
       border-top: 1px solid rgba(255, 255, 255, 0.3);
     }
 
-    .footer_menu_legal_class li {
+    .fd_footer_menu_legal_class li {
       display: inline-block;
       margin-right: 20px;
       line-height: 23px;
@@ -253,7 +253,7 @@ footer.footer_wrap {
       }
     }
 
-    .copyright {
+    .fd-copyright {
       margin-top: 2rem;
       opacity: .3;
       -moz-osx-font-smoothing: grayscale;
@@ -262,11 +262,11 @@ footer.footer_wrap {
     }
   }
 
-  .footer-middle-social {
+  .fd-footer-middle-social {
     display: none;
   }
 
-  .social {
+  .fd-social {
     margin-top: 4rem;
     text-align: center;
 
@@ -302,13 +302,13 @@ footer.footer_wrap {
 }
 
 @media only screen and (min-width: 550px) {
-  footer.footer_wrap {
-    .footer-logos-main-title {
-      .word {
+  footer.fd_footer_wrap {
+    .fd-footer-logos-main-title {
+      .fd-word {
         display: inline;
         opacity: 0.9;
       }
-      .word + .word {
+      .fd-word + .fd-word {
         padding-left: 1ex;
       }
     }
@@ -316,9 +316,9 @@ footer.footer_wrap {
 }
 
 @media only screen and (min-width: 767px) and (max-width: 989px) {
-  footer.footer_wrap {
-    .footer-top {
-      .footer-hakkasan-logo {
+  footer.fd_footer_wrap {
+    .fd-footer-top {
+      .fd-footer-hakkasan-logo {
         margin-bottom: 60px;
 
         svg {
@@ -339,7 +339,7 @@ footer.footer_wrap {
       line-height: 58px;
     }
 
-    .footer-top .footer_menu_top_class {
+    .fd-footer-top .fd_footer_menu_top_class {
       ul, li a {
         font-size: 16px;
         line-height: 45px;
@@ -350,29 +350,29 @@ footer.footer_wrap {
 }
 
 @media only screen and (max-width: 767px) {
-  footer.footer_wrap {
-    .footer-top {
-      .entry-content-wrapper {
+  footer.fd_footer_wrap {
+    .fd-footer-top {
+      .fd-entry-content-wrapper {
         display: flex;
         flex-direction: column;
 
-        .order-1 {
+        .fd-order-1 {
           order: 2;
         }
 
-        .order-2 {
+        .fd-order-2 {
           order: 1;
           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
           margin-bottom: 50px;
 
-          .flex_column {
+          .fd_flex_column {
             width: 50% !important;
             margin-bottom: 30px !important;
           }
         }
       }
 
-      .footer-hakkasan-logo {
+      .fd-footer-hakkasan-logo {
         margin-bottom: 60px;
 
         svg {
@@ -380,7 +380,7 @@ footer.footer_wrap {
         }
       }
 
-      .footer_menu_top_class {
+      .fd_footer_menu_top_class {
         ul, li a {
           font-size: 16px;
           line-height: 45px;
@@ -392,7 +392,7 @@ footer.footer_wrap {
       line-height: 18px;
     }
 
-    .footer-top p {
+    .fd-footer-top p {
       text-align: center;
     }
 
@@ -400,10 +400,10 @@ footer.footer_wrap {
 }
 
 @media (min-width: 768px) {
-  footer.footer_wrap {
+  footer.fd_footer_wrap {
     text-align: left;
 
-    .footer-middle .logos ul li {
+    .fd-footer-middle .fd-logos ul li {
       &:nth-child(-n+4) {
         width: 24%;
         text-align: center;
@@ -421,32 +421,36 @@ footer.footer_wrap {
         margin-top: 45px;
       }
     }
-    .brand_logos li {
+    .fd_brand_logos li {
       a svg {
         width: 8vw;
       }
     }
-    .brand_logos li.wide {
+    .fd_brand_logos li.wide {
       a svg {
         width: 10vw;
       }
     }
-    .brand_logos li.narrow {
+    .fd_brand_logos li.narrow {
       a svg {
         width: 6vw;
       }
     }
-    .brand_logos li.solo {
+    .fd_brand_logos li.solo {
       a svg {
         width: 3.5vw;
       }
     }
 
-    .above_social {
+    [data-av_icon]::before {
+      display: none;
+    }
+
+    .fd_above_social {
       visibility: hidden;
     }
 
-    .social {
+    .fd-social {
       text-align: left;
       p {
         margin-bottom: 1em;
@@ -461,7 +465,7 @@ footer.footer_wrap {
       }
     }
 
-    #menu-footer-menu-legal {
+    #fd-menu-footer-menu-legal {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -471,47 +475,47 @@ footer.footer_wrap {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 989px) {
-  footer.footer_wrap .footer-middle .logos {
+  footer.fd_footer_wrap .fd-footer-middle .fd-logos {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  footer.footer_wrap .footer-middle .logos {
+  footer.fd_footer_wrap .fd-footer-middle .fd-logos {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 989px) {
-  footer.footer_wrap .footer-bottom {
-    .first {
+  footer.fd_footer_wrap .fd-footer-bottom {
+    .fd-first {
       width: 100%;
       margin: 0;
       margin-bottom: 20px;
     }
 
-    .social {
+    .fd-social {
       display: none;
     }
 
-    .copyright {
+    .fd-copyright {
       width: 100%;
     }
   }
 }
 
 @media only screen and (max-width: 767px) {
-  footer.footer_wrap .footer-bottom {
-    .social {
+  footer.fd_footer_wrap .fd-footer-bottom {
+    .fd-social {
       display: none;
     }
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 989px) {
-  footer.footer_wrap .footer-middle-social {
+  footer.fd_footer_wrap .fd-footer-middle-social {
     display: block;
 
     section {
@@ -529,14 +533,14 @@ footer.footer_wrap {
       }
     }
 
-    .border {
+    .fd-border {
       border-top: 1px solid rgba(255, 255, 255, 0.3);
     }
   }
 }
 
 @media only screen and (max-width: 767px) {
-  footer.footer_wrap .footer-middle-social {
+  footer.fd_footer_wrap .fd-footer-middle-social {
     display: block;
 
     section {
@@ -554,19 +558,19 @@ footer.footer_wrap {
       }
     }
 
-    .border {
+    .fd-border {
       border-top: 1px solid rgba(255, 255, 255, 0.3);
     }
   }
 }
 
-.footer-middle .logos li.brand-Shorebar {
+.fd-footer-middle .fd-logos li.brand-Shorebar {
   display: none !important;
 }
 
-.footer-logos-main-title {
+.fd-footer-logos-main-title {
   text-align: center;
-  font-size: 20px;
+  font-size: 20px !important;
   text-transform: uppercase;
   color: #FFF;
   opacity: .7;
@@ -574,11 +578,11 @@ footer.footer_wrap {
   line-height: 35px;
 }
 
-.copyright {
+.fd-copyright {
   text-align: center;
 }
 
-footer.footer_wrap .container {
+footer.fd_footer_wrap .fd-container {
   width: 85%;
   margin: auto;
 }
@@ -586,22 +590,22 @@ footer.footer_wrap .container {
 
 
 @media all and (min-width: 900px) {
-  footer.footer_wrap {
+  footer.fd_footer_wrap {
     text-align: left;
   }
 
-  #menu-footer-menu-legal {
+  #fd-menu-footer-menu-legal {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .footer-logos-main-title {
+  .fd-footer-logos-main-title {
     line-height: 66px !important;
   }
 }
 
-div .flex_column {
+div .fd_flex_column {
   z-index: 1;
   float: left;
   position: relative;
@@ -610,36 +614,36 @@ div .flex_column {
   margin-bottom: 28px;
 }
 
-.social_bookmarks svg {
+.fd_social_svg svg {
   width: 17px;
 }
 
-.first {
+.fd-first {
   margin-left: 0 !important;
 }
 
 @media only screen and (min-width: 768px) {
   div {
-    .flex_column {
+    .fd_flex_column {
       margin-bottom: 0px;
     }
 
-    .av_one_half {
+    .fd_av_one_half {
       margin-left: 4%;
       width: 47%;
     }
 
-    .av_one_fourth {
+    .fd_av_one_fourth {
       margin-left: 6%;
       width: 20.5%;
     }
 
-    .av_one_third {
+    .fd_av_one_third {
       width: 33.33332%;
     }
   }
 
-  footer.footer_wrap .container {
+  footer.fd_footer_wrap .fd-container {
     // width: 100%;
     // padding: 0 125px;
   }
