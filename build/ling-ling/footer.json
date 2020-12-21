@@ -128,7 +128,7 @@ footerCallback(["\
             </div>\n\
 \n\
             <div class=\"fd-order-2\">\n\
-              <div class=\"fd_flex_column fd-sitelinks\">\n\
+              <div class=\"fd_flex_column fd_av_one_fourth fd-sitelinks\">\n\
                 <section>\n\
                   <div class=\"fd_footer_menu_top_class\">\n\
                     <ul id=\"fd-menu-footer-menu-left\">\n\
@@ -154,7 +154,7 @@ footerCallback(["\
                   </div>\n\
                 </section>\n\
               </div>\n\
-              <div class=\"fd_flex_column fd-sitelinks\">\n\
+              <div class=\"fd_flex_column fd_av_one_fourth fd-sitelinks\">\n\
                 <section>\n\
                   <div class=\"fd_footer_menu_top_class\">\n\
                     <ul id=\"fd-menu-footer-menu-right\">\n\
