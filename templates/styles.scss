@@ -158,6 +158,13 @@ footer.fd_footer_wrap {
     opacity: 0.7;
   }
 
+  .fd_logo_top li {
+    a svg {
+      width: 18vw;
+      fill: white;
+    }
+  }
+
   .fd_brand_logos li {
     a svg {
       width: 23vw;
@@ -576,6 +583,17 @@ footer.fd_footer_wrap {
   opacity: .7;
   letter-spacing: 2px !important;
   line-height: 35px;
+}
+
+.fd-footer-brand-title {
+  text-align: left;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  color: #FFF;
+  opacity: .7;
+  letter-spacing: 2px !important;
+  line-height: 35px;
+  font-family: 'Darby Sans Poster Web', serif;
 }
 
 .fd-copyright {
