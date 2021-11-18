@@ -31,7 +31,6 @@ export class FooterDriverPipelineStack extends Stack {
          commands: [
            'cd ./deployment && npm ci',
            'npx audit-ci --high',
-           'npm run build',
            'npx cdk synth footer-driver-pipeline-production'
          ],
          primaryOutputDirectory: './deployment/cdk.out',
