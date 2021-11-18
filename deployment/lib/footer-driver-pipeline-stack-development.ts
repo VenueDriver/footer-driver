@@ -11,7 +11,7 @@ export class FooterDriverPipelineStackDevelopment extends Stack {
 
     const footerDomain = 'footers.taogroup.com';
 
-    const footerDriverGithubConnection = SecretValue.secretsManager('footer-driver-secrets', {
+    const footerDriverGithubConnection = SecretValue.secretsManager('store-driver-secrets', {
       jsonField: 'github-connection'
     }).toString();
 
@@ -29,12 +29,11 @@ export class FooterDriverPipelineStackDevelopment extends Stack {
          
          // Install dependencies, build and run cdk synth
          commands: [
-           'cd ./server && npm ci',
-           'npx audit-ci --high',
-           'npm run build',
-           'npx cdk synth footer-driver-pipeline-development'
-         ],
-         primaryOutputDirectory: './server/cdk.out',
+          'cd ./deployment && npm ci',
+          'npx audit-ci --high',
+          'npx cdk synth footer-driver-pipeline-development'
+        ],
+        primaryOutputDirectory: './deployment/cdk.out',
        }),
     });
 
