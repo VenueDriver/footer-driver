@@ -45,7 +45,7 @@ export class FooterDriverPipelineStackDevelopment extends Stack {
 
     // Production stage
     const developmentStage = preProd.addStage(new FooterDriverPipelineStage(this, 'development', {
-      env: { account: '848430332553', region: 'us-east-1' },
+      env: { account: '330731243300', region: 'us-east-1' },
       Stage: 'development',
       CloudFrontDomain: `development.${footerDomain}`
     }));
