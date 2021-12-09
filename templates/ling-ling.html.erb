@@ -26,7 +26,7 @@
 <%=
 SassC::Engine.new(
   ERB.new(
-      File.read('templates/styles.scss'),
+      File.read('templates/styles.css'),
       nil, nil, 'styles'
     ).result(binding),
     {
