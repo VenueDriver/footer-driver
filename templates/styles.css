@@ -1,6 +1,54 @@
+@font-face {
+    font-family: 'rotis';
+    font-display: fallback;
+  src: url("https://hakkasan.com/wp-content/themes/enfold-child/css/fonts/341048_0_0.woff2") format("woff2"),
+   url("https://hakkasan.com/wp-content/themes/enfold-child/css/fonts/341048_0_0.woff") format("woff");
+}
+
 #footer {
     text-align: left;
-    border-top-width: 0; }
+    border-top-width: 0;
+    padding: 15px 0 30px 0;
+    z-index: 1;
+}
+
+.widgettitle{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+.widget{
+    clear:both;
+    position: relative;
+    padding:30px 0 30px 0;
+    float:none;
+}
+
+#footer .widget{
+    padding:0; margin:30px 0 30px 0; overflow: hidden;
+}
+
+#top .widget ul{
+    padding:0;
+    margin:0;
+    width:100%;
+    float:left;
+}
+
+#top #footer .widget ul{
+    float:none
+}
+
+.widget li{
+    clear:both;
+}
+
+.widget ul ul li,.widget ul ol li, .widget ol ol li, .widget ol ul li{
+    margin-bottom:0;
+}
+
     #footer ul li {
       display: inline-block;
       width: 49%;
