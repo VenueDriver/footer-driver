@@ -26,7 +26,7 @@
 <%=
 SassC::Engine.new(
   ERB.new(
-      File.read('templates/styles.scss'),
+      File.read('templates/asian-luxury/styles.css'),
       nil, nil, 'styles'
     ).result(binding),
     {
@@ -63,8 +63,8 @@ SassC::Engine.new(
       </p>
     </div>
 
-    <% @brand = 'ling-ling' %>
+    <% @brand = 'asian-luxury' %>
 
-    <%= ERB.new(File.read('templates/footer.html.erb'), nil, nil, 'footer').result(binding) %>
+    <%= ERB.new(File.read('templates/asian-luxury/footer.html.erb'), nil, nil, 'footer').result(binding) %>
   </body>
 </html>
