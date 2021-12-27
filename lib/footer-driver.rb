@@ -11,7 +11,7 @@ module FooterDriver
 
     # Brands
     [
-      'Ling Ling'
+      'Asian Luxury'
     ].each do |brand|
       FooterDriver.build_brand(brand: brand)
     end
