@@ -78,6 +78,28 @@ module FooterDriver
         minified: true
       },
 
+
+      {
+        input:  'templates/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.html')
+      },
+      {
+        input:  'templates/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.min.html'),
+        minified: true
+      },
+      {
+        input:  'templates/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.json')
+      },
+      {
+        input:  'templates/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.min.json'),
+        minified: true
+      },
+
+
+
       # Demo of using lazy loading on the client side.
       {
         input:  'templates/index.lazy-load.html.erb',
