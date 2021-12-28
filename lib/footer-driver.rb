@@ -11,7 +11,7 @@ module FooterDriver
 
     # Brands
     [
-      'Ling Ling'
+      'Asian Luxury'
     ].each do |brand|
       FooterDriver.build_brand(brand: brand)
     end
@@ -77,6 +77,28 @@ module FooterDriver
         output: File.join(brand_folder,'index.min.html'),
         minified: true
       },
+
+
+      {
+        input:  'templates/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.html')
+      },
+      {
+        input:  'templates/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.min.html'),
+        minified: true
+      },
+      {
+        input:  'templates/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.json')
+      },
+      {
+        input:  'templates/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.min.json'),
+        minified: true
+      },
+
+
 
       # Demo of using lazy loading on the client side.
       {
