@@ -1,75 +1,88 @@
-<div class="container_wrap footer_color" id="footer">
-    <div class="container">
-        <div class="flex_column   first el_before_">
-            <section id="nav_menu-2" class="widget clearfix widget_nav_menu">
-                <div class="menu-footer-top-container">
-                    <ul id="menu-footer-top" class="menu">
-                        <li id="menu-item-2220"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2220"><a
-                                target="_blank" rel="noopener" href="https://hakkasangroup.com/accessibility-policy/"
-                                open-layer="https:hakkasangroup.comaccessibility-policy">Accessibility Policy</a></li>
-                        <li id="menu-item-2462"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2462"><a
-                                target="_blank" rel="noopener"
-                                href="https://hakkasangroup.com/privacy-policy/?entity=hakkasan"
-                                open-layer="https:hakkasangroup.comprivacy-policy?entity=hakkasan">Privacy, Ads,
-                                Legal</a></li>
-                        <li id="menu-item-13866"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13866"><a
-                                href="https://hakkasan.com/contact/" open-layer="contact">Contact</a></li>
-                        <li id="menu-item-4104"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4104"><a
-                                href="https://hakkasan.com/subscribe/" open-layer="subscribe">Subscribe</a></li>
-                        <li id="menu-item-2223"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2223"><a
-                                href="https://hakkasan.com/reservations/" open-layer="reservations">Reservations</a>
-                        </li>
-                        <li id="menu-item-13836"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13836"><a
-                                target="_blank" rel="noopener" href="https://hakkasangroup.com/modern-slavery-act"
-                                open-layer="https:hakkasangroup.commodern-slavery-act">MSA</a></li>
-                        <li id="menu-item-20055"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20055"><a
-                                href="https://hakkasangroup.com/uk-tax-strategy/"
-                                open-layer="https:hakkasangroup.comuk-tax-strategy">UK Tax Strategy</a></li>
-                    </ul>
-                </div><span class="seperator extralight-border"></span>
-            </section>
-            <section id="nav_menu-3" class="widget clearfix widget_nav_menu">
-                <div class="menu-footer-bottom-container">
-                    <ul id="menu-footer-bottom" class="menu">
-                        <li id="menu-item-81"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a
-                                target="_blank" rel="noopener" href="https://hakkasangroup.com/"
-                                open-layer="https:hakkasangroup.com">Hakkasan Group</a></li>
-                        <li id="menu-item-82"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a
-                                target="_blank" rel="noopener" href="https://hakkasannightclub.com/"
-                                open-layer="https:hakkasannightclub.com">Hakkasan Nightclub</a></li>
-                        <li id="menu-item-87"
-                            class="brand-footer menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-87">
-                            <a href="https://hakkasan.com/" aria-current="page">.</a></li>
-                        <li id="menu-item-83"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a
-                                target="_blank" rel="noopener" href="https://lingling.hakkasan.com/"
-                                open-layer="https:lingling.hakkasan.com">Ling Ling</a></li>
-                        <li id="menu-item-84"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a
-                                target="_blank" rel="noopener" href="https://www.yauatcha.com/"
-                                open-layer="https:www.yauatcha.com">Yauatcha</a></li>
-                        <li id="menu-item-85"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"><a
-                                target="_blank" rel="noopener" href="http://sakenohana.com/"
-                                open-layer="http:sakenohana.com">Sake no Hana</a></li>
-                    </ul>
-                </div><span class="seperator extralight-border"></span>
-            </section>
-            <section id="avia_mailchimp_widget-2" class="widget clearfix avia_mailchimp_widget">
-                <div class="av-mailchimp-widget av-mailchimp-widget-style- "></div><span
-                    class="seperator extralight-border"></span>
-            </section>
-        </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
 
-</div>
-<% @brand = 'asian-luxury' %>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Footer Driver</title>
+
+    <style class="embed">
+        /* Minimal style reset. */
+        body,
+        div {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            background-color: black;
+            color: white;
+        }
+
+        p+p {
+            margin-top: 1em;
+        }
+    </style>
+
+    <style class="embed">
+        <%=SassC::Engine.new(ERB.new(File.read('templates/styles.scss'),
+                nil, nil, 'styles'
+
+            ).result(binding),
+                {
+                style: :compressed
+            }
+
+        ).render %>
+    </style>
+
+</head>
+
+<body>
+    <div style="background-color: black; width: 100%; color: white; padding: 1em 0 1em 0;">fake page header</div>
+    <div style="background-color: #D219C0;; width: 100%; color: white; padding: 1em 0 1em 0;">
+        <p>Lorem Ipsum</p>
+
+        <p>Vivamus malesuada nisi ligula, a rutrum ligula ornare sed. Proin eu elementum dui, sit amet dapibus augue.
+            Etiam sed erat aliquet, auctor justo id, suscipit dolor. Quisque tempor volutpat turpis non varius. Proin
+            faucibus rhoncus tellus, sit amet feugiat quam placerat mattis. Vestibulum vehicula mattis convallis.
+            Vestibulum viverra eros vitae purus semper ultrices. Curabitur mollis ultrices tincidunt. Aliquam sodales
+            vel risus sit amet efficitur.</p>
+
+        <p>
+            Fusce quis risus pretium, commodo est at, gravida ligula. Phasellus vehicula odio ipsum, non elementum nisl
+            convallis nec. Suspendisse aliquet, ligula ut interdum varius, velit justo varius orci, ac fermentum felis
+            est et nunc. Quisque in auctor lectus, in ornare elit. Nullam erat lorem, rutrum ut imperdiet sit amet,
+            mattis eget lectus. Fusce lorem justo, mattis vitae rutrum sed, rhoncus at quam. Suspendisse vitae elementum
+            magna, a pellentesque mi. Suspendisse ante ante, ornare vitae lacus at, iaculis rhoncus justo. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque gravida quis urna ac
+            faucibus. In molestie nunc id felis consequat commodo.
+        </p>
+
+        <p>
+            Donec vel elit hendrerit purus sagittis iaculis. Duis et tincidunt elit. Suspendisse risus sem, consequat ac
+            justo quis, suscipit tristique dolor. Nullam nec nunc congue, venenatis orci ac, tempus mauris. Ut eget
+            congue lorem. Mauris vel gravida orci. Donec felis lectus, elementum nec pulvinar luctus, pulvinar eu lacus.
+            Vivamus placerat diam ut tellus iaculis, vitae molestie nulla pretium. Nullam imperdiet libero quis augue
+            ultricies pharetra et imperdiet lectus. Ut finibus nisi id elit mattis, vel rutrum mi molestie. Praesent
+            maximus odio in turpis tristique, ut gravida orci mattis. Nam pharetra nisi a elit pharetra, vel tristique
+            odio convallis. Sed aliquam arcu ante, id vehicula mi bibendum id. Duis venenatis finibus libero, non
+            feugiat urna scelerisque sit amet. Nunc risus nunc, varius et commodo nec, tristique vel lacus.
+        </p>
+
+        <p>
+            Aliquam id nisl dictum, dictum nulla in, tincidunt mauris. Curabitur vel velit auctor, consequat magna ac,
+            feugiat odio. Etiam vel aliquam risus, vitae ullamcorper arcu. Quisque id tellus euismod augue consequat
+            scelerisque at id nisi. Sed sit amet velit ac lectus ornare luctus in nec quam. Vivamus nec ullamcorper
+            eros. Ut euismod eu erat at rutrum. Nunc eu nulla nec ante tincidunt tincidunt et a purus. Duis ac enim vel
+            odio tristique tincidunt. Sed euismod nunc ac est venenatis eleifend. Maecenas scelerisque massa eget odio
+            rhoncus interdum. Etiam ultrices ultrices pulvinar. Morbi laoreet vulputate velit. Maecenas non leo
+            malesuada, semper orci sed, cursus urna.
+        </p>
+    </div>
+    <%= ERB.new(File.read('templates/asian-luxury-index.html.erb'), nil, nil, 'footer').result(binding) %>
+    <% @brand='asian-luxury' %>
+
+</body>
+
+</html>
