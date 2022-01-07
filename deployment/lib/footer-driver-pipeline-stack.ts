@@ -9,7 +9,7 @@ export class FooterDriverPipelineStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    const footerDomain = 'footers.hakkasangroup.com';
+    const footerDomain = 'footers.taogroup.com';
 
     const footerDriverGithubConnection = SecretValue.secretsManager('store-driver-secrets', {
       jsonField: 'github-connection'
