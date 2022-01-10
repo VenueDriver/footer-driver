@@ -5,7 +5,7 @@ footerCallback(["\
     "<style class=\"embed\">\n" +
     SassC::Engine.new(
       ERB.new(
-        File.read('templates/styles.css'),
+        File.read('templates/styles.scss'),
         nil, nil, 'styles'
       ).result(binding),
       {
