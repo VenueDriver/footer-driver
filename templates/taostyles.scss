@@ -1,0 +1,443 @@
+
+/*  Tao Group footer styles  */
+
+#tao-footer {
+    address,
+    article,
+    aside,
+    div,
+    footer,
+    header,
+    hgroup,
+    layer,
+    main,
+    nav,
+    section {
+        display: block;
+    }
+  
+    .col-xxl,
+    .col-xxl-auto,
+    .col-xxl-12,
+    .col-xxl-11,
+    .col-xxl-10,
+    .col-xxl-9,
+    .col-xxl-8,
+    .col-xxl-7,
+    .col-xxl-6,
+    .col-xxl-5,
+    .col-xxl-4,
+    .col-xxl-3,
+    .col-xxl-2,
+    .col-xxl-1,
+    .col-xl,
+    .col-xl-auto,
+    .col-xl-12,
+    .col-xl-11,
+    .col-xl-10,
+    .col-xl-9,
+    .col-xl-8,
+    .col-xl-7,
+    .col-xl-6,
+    .col-xl-5,
+    .col-xl-4,
+    .col-xl-3,
+    .col-xl-2,
+    .col-xl-1,
+    .col-lg,
+    .col-lg-auto,
+    .col-lg-12,
+    .col-lg-11,
+    .col-lg-10,
+    .col-lg-9,
+    .col-lg-8,
+    .col-lg-7,
+    .col-lg-6,
+    .col-lg-5,
+    .col-lg-4,
+    .col-lg-3,
+    .col-lg-2,
+    .col-lg-1,
+    .col-md,
+    .col-md-auto,
+    .col-md-12,
+    .col-md-11,
+    .col-md-10,
+    .col-md-9,
+    .col-md-8,
+    .col-md-7,
+    .col-md-6,
+    .col-md-5,
+    .col-md-4,
+    .col-md-3,
+    .col-md-2,
+    .col-md-1,
+    .col-sm,
+    .col-sm-auto,
+    .col-sm-12,
+    .col-sm-11,
+    .col-sm-10,
+    .col-sm-9,
+    .col-sm-8,
+    .col-sm-7,
+    .col-sm-6,
+    .col-sm-5,
+    .col-sm-4,
+    .col-sm-3,
+    .col-sm-2,
+    .col-sm-1,
+    .col,
+    .col-auto,
+    .col-12,
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col-1 {
+        position: relative;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+  
+    .site-footer {
+        border-top: 1px solid #343a40;
+        padding: 4rem 0 1rem;
+        background-color: #1f2730;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+            "Noto Color Emoji" !important;
+        color: #fff !important;
+    }
+  
+    .mb-4,
+    .my-4 {
+        margin-bottom: 3rem !important;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    #tao-footer {
+        .pr-xl-3,
+        .px-xl-3 {
+            padding-right: 1rem !important;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .text-md-left {
+            text-align: left !important;
+        }
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #tao-footer {
+        .pl-xl-3,
+        .px-xl-3 {
+            padding-left: 1rem !important;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .mb-md-5,
+        .my-md-5 {
+            margin-bottom: 6rem !important;
+        }
+    }
+  }
+  
+  #tao-footer {
+    .site-footer svg {
+        fill: #fff !important;
+    }
+  
+    .site-footer a:hover {
+        color: #fff;
+        opacity: 0.8;
+    }
+  
+    .site-footer__menus a {
+        font-size: 0.875rem;
+        color: #fff;
+        font-weight: 500;
+    }
+  
+    .site-footer__social a {
+        font-weight: 300;
+        color: #fff;
+        margin: 0 0.5rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #tao-footer {
+        .site-footer__social a {
+            margin: 0 0 0 0.5rem;
+        }
+    }
+  }
+  #tao-footer {
+    .site-footer .copyright,
+    .site-footer .footer-links {
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+            "Noto Color Emoji" !important;
+        font-size: 0.75rem;
+        text-transform: none !important;
+    }
+  
+    .site-footer .footer-links a {
+        color: #fff;
+        opacity: 0.6;
+    }
+  
+    .site-footer .venue-taogroup-logo svg {
+        fill: #fff !important;
+        opacity: 0.6;
+    }
+  
+    .container,
+    .container-fluid,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+    *,
+    * ::before,
+    * ::after {
+        box-sizing: border-box;
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .col-md-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+  }
+  @media (min-width: 1200px) {
+    #tao-footer {
+        .col-xl-2 {
+            flex: 0 0 16.66666667%;
+            max-width: 16.66666667%;
+        }
+    }
+  }
+  #tao-footer {
+    .mr-auto,
+    .mx-auto {
+        margin-right: auto !important;
+    }
+    .ml-auto,
+    .mx-auto {
+        margin-left: auto !important;
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .ml-md-0,
+        .mx-md-0 {
+            margin-left: 0 !important;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .mr-md-0,
+        .mx-md-0 {
+            margin-right: 0 !important;
+        }
+    }
+  }
+  
+  #tao-footer {
+    .site-footer__logo {
+        max-width: 10rem;
+    }
+    svg {
+        overflow: hidden;
+        vertical-align: middle;
+    }
+  
+    .svg-logo {
+        x: 0px;
+        y: 0px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #tao-footer {
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+  }
+  @media (min-width: 1200px) {
+    #tao-footer {
+        .offset-xl-1 {
+            margin-left: 8.33333333%;
+        }
+    }
+  }
+  
+  #tao-footer {
+    .d-flex {
+        display: flex !important;
+    }
+    .flex-column {
+        flex-direction: column !important;
+    }
+    .flex-wrap {
+        flex-wrap: wrap !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #tao-footer {
+        .flex-md-row {
+            flex-direction: row !important;
+        }
+    }
+  }
+  
+  #tao-footer {
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+    .justify-content-center {
+        justify-content: center !important;
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .justify-content-md-start {
+            justify-content: flex-start !important;
+        }
+    }
+  }
+  
+  #tao-footer {
+    .mt-1,
+    .my-1 {
+        margin-top: 0.25rem !important;
+    }
+    .flex-grow-1 {
+        flex-grow: 1 !important;
+    }
+  
+    ol,
+    ul {
+        overflow-wrap: break-word;
+    }
+    ol,
+    ul,
+    dl {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+  
+    .mb-0,
+    .my-0 {
+        margin-bottom: 0 !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #tao-footer {
+        .pl-md-4,
+        .px-md-4 {
+            padding-left: 3rem !important;
+        }
+    }
+  }
+  @media (min-width: 1200px) {
+    #tao-footer {
+        .pl-xl-0,
+        .px-xl-0 {
+            padding-left: 0 !important;
+        }
+    }
+  }
+  
+  #tao-footer {
+    body {
+        margin: 0;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+            "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.55;
+        color: #fff;
+        text-align: left;
+        background-color: #23292f;
+    }
+  
+    .mt-4,
+    .my-4 {
+        margin-top: 3rem !important;
+    }
+    p {
+        overflow-wrap: break-word;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+  
+    a {
+        color: #fff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+  }
+  @media (min-width: 768px) {
+    #tao-footer {
+        .mt-md-0,
+        .my-md-0 {
+            margin-top: 0 !important;
+        }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #tao-footer {
+        .text-md-right {
+            text-align: right !important;
+        }
+    }
+  }
+  #tao-footer {
+    .mr-2,
+    .mx-2 {
+        margin-right: 0.5rem !important;
+    }
+  }
+  

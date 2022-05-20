@@ -11,7 +11,7 @@ module FooterDriver
 
     # Brands
     [
-      'Asian Luxury'
+      'Asian Luxury','taogroup'
     ].each do |brand|
       FooterDriver.build_brand(brand: brand)
     end
@@ -65,7 +65,6 @@ module FooterDriver
         output: File.join(brand_folder,'styles.min.css'),
         minified: true
       },
-
       # Index file that hosts the footer, with styling.  For development.
       {
         input:  'templates/index.html.erb',
@@ -98,8 +97,37 @@ module FooterDriver
         minified: true
       },
 
+      {
+        input:  'templates/taogroup.html.erb',
+        output: File.join(brand_folder,'taogroup.html')
+      },
+      {
+        input:  'templates/taogroup.html.erb',
+        output: File.join(brand_folder,'taogroup.min.html'),
+        minified: true
+      },
+      {
+        input:  'templates/taogroup.jsonp.erb',
+        output: File.join(brand_folder,'taogroup.json')
+      },
+      {
+        input:  'templates/taogroup.jsonp.erb',
+        output: File.join(brand_folder,'taogroup.min.json'),
+        minified: true
+      },
 
 
+      # Raw CSS file.  You'll probably want that separately for including.
+      {
+        input:  'templates/taostyles.css.erb',
+        output: File.join(brand_folder,'taostyles.css')
+      },
+      # Minified CSS file, for including into things in production.
+      {
+        input:  'templates/taostyles.css.erb',
+        output: File.join(brand_folder,'taostyles.min.css'),
+        minified: true
+      },
       # Demo of using lazy loading on the client side.
       {
         input:  'templates/index.lazy-load.html.erb',
