@@ -25,7 +25,7 @@
     </style>
 
     <style class="embed">
-        <%=SassC::Engine.new(ERB.new(File.read('templates/styles.scss'),
+        <%=SassC::Engine.new(ERB.new(File.read('templates/asian-luxury/asian-luxury.scss'),
                 nil, nil, 'styles'
 
             ).result(binding),
@@ -80,7 +80,7 @@
             malesuada, semper orci sed, cursus urna.
         </p>
     </div>
-    <%= ERB.new(File.read('templates/asian-luxury-index.html.erb'), nil, nil, 'footer').result(binding) %>
+    <%= ERB.new(File.read('templates/asian-luxury/asian-luxury-index.html.erb'), nil, nil, 'footer').result(binding) %>
     <% @brand='asian-luxury' %>
 
 </body>

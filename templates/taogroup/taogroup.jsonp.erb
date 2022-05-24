@@ -5,7 +5,7 @@ footerCallback(["\
     "<style class=\"embed\">\n" +
     SassC::Engine.new(
       ERB.new(
-        File.read('templates/taostyles.scss'),
+        File.read('templates/taogroup/taogroup.scss'),
         nil, nil, 'styles'
       ).result(binding),
       {
@@ -15,7 +15,7 @@ footerCallback(["\
     "</style>" +
 
     # HTML
-    ERB.new(File.read('templates/taogroup.html.erb'), nil, nil, 'footer').
+    ERB.new(File.read('templates/taogroup/taogroup.html.erb'), nil, nil, 'footer').
       result(binding)
   ).
     # Escape the quotes.

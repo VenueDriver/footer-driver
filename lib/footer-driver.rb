@@ -6,12 +6,14 @@ require 'sassc'
 
 module FooterDriver
 
+  $brands = ['asian-luxury','taogroup']
+
   def FooterDriver.build_all
     FooterDriver.build_brand # Generic
 
     # Brands
     [
-      'Asian Luxury','taogroup'
+      'asian-luxury','taogroup'
     ].each do |brand|
       FooterDriver.build_brand(brand: brand)
     end
@@ -41,7 +43,6 @@ module FooterDriver
         output: File.join(brand_folder,'footer.min.html'),
         minified: true
       },
-
       # footer file for JSONP.  For lazy-loading from the client side.
       {
         input:  'templates/footer.jsonp.erb',
@@ -53,7 +54,6 @@ module FooterDriver
         output: File.join(brand_folder,'footer.min.json'),
         minified: true
       },
-
       # Raw CSS file.  You'll probably want that separately for including.
       {
         input:  'templates/styles.css.erb',
@@ -76,58 +76,6 @@ module FooterDriver
         output: File.join(brand_folder,'index.min.html'),
         minified: true
       },
-
-
-      {
-        input:  'templates/asian-luxury.html.erb',
-        output: File.join(brand_folder,'asian-luxury.html')
-      },
-      {
-        input:  'templates/asian-luxury.html.erb',
-        output: File.join(brand_folder,'asian-luxury.min.html'),
-        minified: true
-      },
-      {
-        input:  'templates/asian-luxury.jsonp.erb',
-        output: File.join(brand_folder,'asian-luxury.json')
-      },
-      {
-        input:  'templates/asian-luxury.jsonp.erb',
-        output: File.join(brand_folder,'asian-luxury.min.json'),
-        minified: true
-      },
-
-      {
-        input:  'templates/taogroup.html.erb',
-        output: File.join(brand_folder,'taogroup.html')
-      },
-      {
-        input:  'templates/taogroup.html.erb',
-        output: File.join(brand_folder,'taogroup.min.html'),
-        minified: true
-      },
-      {
-        input:  'templates/taogroup.jsonp.erb',
-        output: File.join(brand_folder,'taogroup.json')
-      },
-      {
-        input:  'templates/taogroup.jsonp.erb',
-        output: File.join(brand_folder,'taogroup.min.json'),
-        minified: true
-      },
-
-
-      # Raw CSS file.  You'll probably want that separately for including.
-      {
-        input:  'templates/taostyles.css.erb',
-        output: File.join(brand_folder,'taostyles.css')
-      },
-      # Minified CSS file, for including into things in production.
-      {
-        input:  'templates/taostyles.css.erb',
-        output: File.join(brand_folder,'taostyles.min.css'),
-        minified: true
-      },
       # Demo of using lazy loading on the client side.
       {
         input:  'templates/index.lazy-load.html.erb',
@@ -138,12 +86,73 @@ module FooterDriver
         input:  'templates/index.lazy-load.html.erb',
         output: File.join(brand_folder,'index.lazy-load.min.html'),
         minified: true
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.html')
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.html.erb',
+        output: File.join(brand_folder,'asian-luxury.min.html'),
+        minified: true
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.json')
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.jsonp.erb',
+        output: File.join(brand_folder,'asian-luxury.min.json'),
+        minified: true
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.css.erb',
+        output: File.join(brand_folder,'asian-luxury.css')
+      },
+      {
+        input:  'templates/asian-luxury/asian-luxury.css.erb',
+        output: File.join(brand_folder,'asian-luxury.min.css'),
+        minified: true
+      },
+      {
+        input:  'templates/taogroup/taogroup.html.erb',
+        output: File.join(brand_folder,'taogroup.html')
+      },
+      {
+        input:  'templates/taogroup/taogroup.html.erb',
+        output: File.join(brand_folder,'taogroup.min.html'),
+        minified: true
+      },
+      {
+        input:  'templates/taogroup/taogroup.jsonp.erb',
+        output: File.join(brand_folder,'taogroup.json')
+      },
+      {
+        input:  'templates/taogroup/taogroup.jsonp.erb',
+        output: File.join(brand_folder,'taogroup.min.json'),
+        minified: true
+      },
+      {
+        input:  'templates/taogroup/taogroup.css.erb',
+        output: File.join(brand_folder,'taogroup.css')
+      },
+      {
+        input:  'templates/taogroup/taogroup.css.erb',
+        output: File.join(brand_folder,'taogroup.min.css'),
+        minified: true
       }
-
     ].each do |configuration|
       begin
-        FooterDriver.build(**configuration)
-        puts "    #{configuration[:input]} : #{configuration[:output]}".green
+        #all name files of brand must be the same of brand_name (scss - css - html - css.erb - html.erb)
+        if(configuration[:input].include?(brand_name))
+          FooterDriver.build(**configuration)
+          puts "    #{configuration[:input]} : #{configuration[:output]}".green
+        elsif(brand_name == 'Generic')
+          if(configuration[:input].include?("footer") || configuration[:input].include?("styles") || configuration[:input].include?("index"))
+            FooterDriver.build(**configuration)
+            puts "    #{configuration[:input]} : #{configuration[:output]}".green
+          end
+        end        
       rescue => error
         puts '    ' + "#{configuration[:input]} : ERROR ".white.on_red
         puts "\n#{error}\n"

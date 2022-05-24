@@ -21,7 +21,7 @@
     </style>
 
     <style class="embed">
-        <%=SassC::Engine.new(ERB.new(File.read('templates/taostyles.scss'),
+        <%=SassC::Engine.new(ERB.new(File.read('templates/taogroup/taogroup.scss'),
                 nil, nil, 'styles'
 
             ).result(binding),
@@ -76,7 +76,7 @@
             malesuada, semper orci sed, cursus urna.
         </p>
     </div>
-    <%= ERB.new(File.read('templates/taogroup-index.html.erb'), nil, nil, 'footer').result(binding) %>
+    <%= ERB.new(File.read('templates/taogroup/taogroup-index.html.erb'), nil, nil, 'footer').result(binding) %>
     <% @brand='taogroup' %>
 
 </body>

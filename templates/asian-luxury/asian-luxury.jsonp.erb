@@ -5,7 +5,7 @@ footerCallback(["\
     "<style class=\"embed\">\n" +
     SassC::Engine.new(
       ERB.new(
-        File.read('templates/styles.scss'),
+        File.read('templates/asian-luxury/asian-luxury.scss'),
         nil, nil, 'styles'
       ).result(binding),
       {
@@ -15,7 +15,7 @@ footerCallback(["\
     "</style>" +
 
     # HTML
-    ERB.new(File.read('templates/asian-luxury-index.html.erb'), nil, nil, 'footer').
+    ERB.new(File.read('templates/asian-luxury/asian-luxury-index.html.erb'), nil, nil, 'footer').
       result(binding)
   ).
     # Escape the quotes.
