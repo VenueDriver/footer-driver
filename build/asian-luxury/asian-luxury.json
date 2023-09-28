@@ -8,64 +8,57 @@ footerCallback(["\
             <section id=\"nav_menu-2\" class=\"widget clearfix widget_nav_menu\">\n\
                 <div class=\"menu-footer-top-container\">\n\
                     <ul id=\"menu-footer-top\" class=\"menu\">\n\
-                        <li id=\"menu-item-2220\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-2220\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://hakkasangroup.com/accessibility-policy/\"\n\
-                                open-layer=\"https:hakkasangroup.comaccessibility-policy\">Accessibility Policy</a></li>\n\
-                        <li id=\"menu-item-2462\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-2462\"><a\n\
-                                target=\"_blank\" rel=\"noopener\"\n\
-                                href=\"https://hakkasangroup.com/privacy-policy/?entity=hakkasan\"\n\
-                                open-layer=\"https:hakkasangroup.comprivacy-policy?entity=hakkasan\">Privacy, Ads,\n\
-                                Legal</a></li>\n\
-                        <li id=\"menu-item-13866\"\n\
-                            class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-13866\"><a\n\
-                                href=\"https://hakkasan.com/contact/\" open-layer=\"contact\">Contact</a></li>\n\
-                        <li id=\"menu-item-4104\"\n\
-                            class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-4104\"><a\n\
-                                href=\"https://hakkasan.com/subscribe/\" open-layer=\"subscribe\">Subscribe</a></li>\n\
-                        <li id=\"menu-item-2223\"\n\
-                            class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-2223\"><a\n\
-                                href=\"https://hakkasan.com/reservations/\" open-layer=\"reservations\">Reservations</a>\n\
+                        <li id=\"menu-item-2220\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-2220\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://taogroup.com/accessibility-policy/\" open-layer=\"https:taogroup.comaccessibility-policy\" data-airgap-id=\"100\">Accessibility Policy</a>\n\
                         </li>\n\
-                        <li id=\"menu-item-13836\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-13836\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://hakkasangroup.com/modern-slavery-act\"\n\
-                                open-layer=\"https:hakkasangroup.commodern-slavery-act\">MSA</a></li>\n\
-                        <li id=\"menu-item-20055\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-20055\"><a\n\
-                                href=\"https://hakkasangroup.com/uk-tax-strategy/\"\n\
-                                open-layer=\"https:hakkasangroup.comuk-tax-strategy\">UK Tax Strategy</a></li>\n\
+                        <li id=\"menu-item-2462\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-2462\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://taogroup.com/privacy-policy/\" open-layer=\"https:taogroup.comprivacy-policy\" data-airgap-id=\"101\">Privacy, Ads, Legal</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-13866\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-13866\">\n\
+                            <a href=\"https://hakkasan.com/contact/\" open-layer=\"contact\">Contact</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-4104\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-4104\">\n\
+                            <a href=\"https://hakkasan.com/subscribe/\" open-layer=\"subscribe\">Subscribe</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-2223\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-2223\">\n\
+                            <a href=\"https://hakkasan.com/reservations/\" open-layer=\"reservations\">Reservations</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-13836\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-13836\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://taogroup.com/modern-slavery-act/\" open-layer=\"https:taogroup.commodern-slavery-act\" data-airgap-id=\"102\">MSA</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-20055\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-20055\">\n\
+                            <a href=\"https://taogroup.com/uk-tax-strategy/\" open-layer=\"https:taogroup.comuk-tax-strategy\">UK Tax Strategy</a>\n\
+                        </li>\n\
                     </ul>\n\
                 </div><span class=\"seperator extralight-border\"></span>\n\
             </section>\n\
             <section id=\"nav_menu-3\" class=\"widget clearfix widget_nav_menu\">\n\
                 <div class=\"menu-footer-bottom-container\">\n\
                     <ul id=\"menu-footer-bottom\" class=\"menu\">\n\
-                        <li id=\"menu-item-81\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-81\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://taogroup.com/\"\n\
-                                open-layer=\"https:hakkasangroup.com\">Tao Group Hospitality</a></li>\n\
-                        <li id=\"menu-item-82\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-82\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://hakkasan.com/\"\n\
-                                open-layer=\"https:hakkasan.com\">Hakkasan</a></li>\n\
-                        <li id=\"menu-item-87\"\n\
-                            class=\"brand-footer menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-87\">\n\
-                            <a href=\"https://hakkasan.com/\" aria-current=\"page\">.</a></li>\n\
-                        <li id=\"menu-item-83\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-83\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://lingling.hakkasan.com/\"\n\
-                                open-layer=\"https:lingling.hakkasan.com\">Ling Ling</a></li>\n\
-                        <li id=\"menu-item-84\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\"><a\n\
-                                target=\"_blank\" rel=\"noopener\" href=\"https://www.yauatcha.com/\"\n\
-                                open-layer=\"https:www.yauatcha.com\">Yauatcha</a></li>\n\
-                        <li id=\"menu-item-85\"\n\
-                            class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\">\n\
-                                <a data-acsb-custom-trigger=\"true\" tabindex=\"0\" role=\"button\" style=\"cursor:pointer\">Accessibility</a>\n\
+                        <li id=\"menu-item-81\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-81\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://taogroup.com/\" open-layer=\"https:taogroup.com\" data-airgap-id=\"103\">Tao Group Hospitality</a>\n\
                         </li>\n\
-                                \n\
+                        <li id=\"menu-item-82\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-82\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://hakkasannightclub.com/\" open-layer=\"https:hakkasannightclub.com\" data-airgap-id=\"104\">Hakkasan Nightclub</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-87\" class=\"brand-footer menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-87\">\n\
+                            <a href=\"https://hakkasan.com/\" aria-current=\"page\">.</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-83\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-83\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://lingling.hakkasan.com/\" open-layer=\"https:lingling.hakkasan.com\" data-airgap-id=\"105\">Ling Ling</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-84\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\">\n\
+                            <a target=\"_blank\" rel=\"noopener\" href=\"https://www.yauatcha.com/\" open-layer=\"https:www.yauatcha.com\" data-airgap-id=\"106\">Yauatcha</a>\n\
+                        </li>\n\
+                        <li id=\"menu-item-acsb\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\">\n\
+                            <a data-acsb-custom-trigger=\"true\" tabindex=\"0\" role=\"button\" style=\"cursor:pointer\" id=\"accessibility\">Accessibility</a>\n\
+                        </li>\n\
+                        <li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\">\n\
+                            <a href=\"https://taogroup.com/privacy-policy/#noticetocaliforniaresidents\" target=\"_blank\" id=\"california-residents\">Notice to California Residents</a>\n\
+                        </li>\n\
+                        <li class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-84\">\n\
+                            <a href=\"javascript:void(0)\" onclick=\"transcend.showConsentManager({ viewState: 'DoNotSellExplainer' })\" id=\"do-not-sell-link\">Your Privacy Choices</a>\n\
+                        </li>\n\
                     </ul>\n\
                 </div><span class=\"seperator extralight-border\"></span>\n\
             </section>\n\
